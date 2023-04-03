@@ -1,0 +1,14 @@
+#background {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 68, 115);
+}
+
+#main-container {
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    align-items: stretch;
+    -unity-text-align: upper-left;
+}

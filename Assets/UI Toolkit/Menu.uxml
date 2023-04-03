@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Menu.uss?fileID=7433441132597879392&amp;guid=b20c95c40bfe6594e882c421dd5f5e72&amp;type=3#Menu" />
+    <ui:VisualElement name="background" style="justify-content: space-around;">
+        <ui:Label text="Sample Game" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 48px;" />
+        <ui:VisualElement name="main-container" style="width: 350px;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" style="height: 50px;" />
+            <ui:Button text="Load" display-tooltip-when-elided="true" style="height: 50px;" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" style="height: 50px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
